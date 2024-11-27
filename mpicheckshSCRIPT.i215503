@@ -1,0 +1,18 @@
+ 
+============================================================
+=====     Queued job information at submit time        =====
+============================================================
+  The submitted file is: mpi_check.sh
+  The time limit is 12:00:00 HH:MM:SS.
+  The target directory is: /home/ualclsd0146/HW5_CS481
+  The memory limit is: 4gb
+  The job will start running after: 202411271424.54
+  Job Name: mpicheckshSCRIPT
+  Queue: -q class -W group_list=classq
+  Constraints: 
+  Command typed:
+/scripts/run_script mpi_check.sh     
+  Queue submit command:
+qsub -q class -W group_list=classq -j oe -N mpicheckshSCRIPT -a 202411271424.54 -r n -M cscompton1@crimson.ua.edu -l walltime=12:00:00 -l select=ncpus=4:mpiprocs=4:mem=4000mb 
+  Job number: 215503
+ 
