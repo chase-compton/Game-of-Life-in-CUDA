@@ -1,0 +1,27 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: mpi_case.sh
+  The time limit is 12:00:00 HH:MM:SS.
+  The target directory is: /home/ualclsd0146/HW5_CS481
+  The working directory is:  /scratch-local/ualclsd0146.mpicaseshSCRIPT.216186.asax-pbs1
+  The memory limit is: 8gb
+  The job will start running after: 202411281427.18
+  Job Name: mpicaseshSCRIPT
+  Queue: -q class -W group_list=classq
+  Constraints: 
+  Using  20  cores on master node  asax020.asc.edu
+  Node list:  asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu
+  Cores:  20
+  Command typed:
+/scripts/run_script mpi_case.sh     
+  Queue submit command:
+qsub -q class -W group_list=classq -j oe -N mpicaseshSCRIPT -a 202411281427.18 -r n -M cscompton1@crimson.ua.edu -l walltime=12:00:00 -l select=ncpus=20:mpiprocs=20:mem=8000mb 
+Time taken 112.266486 seconds for 5000 iterations on a board size of 10000 x 10000
+Program terminates normally
+Time taken 112.345058 seconds for 5000 iterations on a board size of 10000 x 10000
+Program terminates normally
+Time taken 112.413565 seconds for 5000 iterations on a board size of 10000 x 10000
+Program terminates normally
